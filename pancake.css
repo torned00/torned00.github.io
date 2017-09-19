@@ -1,0 +1,22 @@
+#title {
+position: absolute; top: 0; left: 0; width: 100%;
+height: 15%;
+background-color: red;
+
+}
+#menu {
+position: absolute; top: 15%;left: 0;width: 15%; height: 83%;
+background-color: grey;
+}
+#innhold {
+    position: absolute; top: 15%; left: 15%; height: 83%; width: 85%;
+    background-color: skyblue;
+
+}
+#bunn {
+    position: absolute; top: 17%; left: 0; width: 100%; height: 17%;
+    background-color: green;
+
+}
+
+
