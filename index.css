@@ -1,0 +1,65 @@
+#header {
+    width: 100%;
+    height: 130px;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    font-family: arial;
+    color: black;
+    
+}
+
+#innhold {
+    margin-right: 7%;
+    margin-left: 7%;
+    background-color: greenyellow;
+    width: 86%;
+    height: 1000px;
+    border-radius: 10px;
+ 
+}
+#footer {
+    background-color: rgba(46, 44, 44, 0.80);
+    width: 100%;
+    height: 250px;
+ border-radius: 10px;
+    font-family: arial;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+body {
+    background-image: url("camo1.jpeg");
+    background-repeat:repeat;
+   
+}
+h1 {
+    float: top;
+    padding-left:  50px;
+    padding-top: 30px;
+    text-shadow: 1px 1px whitesmoke;
+}
+ul li{
+    float:right;
+    list-style: none;
+    font-family: arial;
+    font-size: 20px;
+ padding-bottom: 30px;
+    padding-right: 40px;
+}
+ul li a {
+    text-decoration-line: none;
+    color: black;
+}
+ul li a:hover{
+text-shadow: 1px 1px black;
+color: darkred;
+opacity: .8;
+}
+
+#footer img{
+border-radius: 50%;
+width: 175px;
+height: 175px;
+}
