@@ -30,8 +30,8 @@
     padding-top: 20px;
 }
 
-body img{
-background-image: "camo1.jpeg";
+body {
+background:"camo1.jpeg" ;
     background-repeat:repeat;
    
 }
