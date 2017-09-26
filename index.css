@@ -30,7 +30,7 @@
 }
 
 body {
-background: url("camo1.jpeg");
+background-image: url("camo1.jpeg");
     background-repeat:repeat;
    
 }
