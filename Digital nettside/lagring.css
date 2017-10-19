@@ -1,0 +1,10 @@
+#main {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+ }
+ #main div{
+     background: lightgray;
+     padding:10px;
+ }
