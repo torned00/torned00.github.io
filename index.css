@@ -1,34 +1,28 @@
 #header {
     width: 100%;
-    height: 130px;
+    height: 100px;
     top: 0;
     left: 0;
     border-radius: 10px;
-    background-color: gray;
+    font-size: 2em;
     font-family: arial;
     color: black;
+    text-align: center;
     
 }
 
 #innhold {
     margin-right: 7%;
     margin-left: 7%;
-    background-color: greenyellow;
+    background-color: rgba(0, 0, 0, .0);
     width: 86%;
     height: 1000px;
     border-radius: 10px;
- 
+  text-align: center;
+  font-size: 4em;
+  color: 
 }
-#footer {
-    background-color: rgba(46, 44, 44, 0.80);
-    width: 100%;
-    height: 250px;
- border-radius: 10px;
-    font-family: arial;
-    font-size: 17px;
-    text-align: center;
-    padding-top: 20px;
-}
+
 
 body {
 background-image:url("camo1.jpeg") ;
@@ -42,12 +36,10 @@ h1 {
     text-shadow: 1px 1px whitesmoke;
 }
 ul li{
-    float:right;
     list-style: none;
     font-family: arial;
     font-size: 20px;
- padding-bottom: 30px;
-    padding-right: 40px;
+    padding: 5px;
 }
 ul li a {
     text-decoration-line: none;
@@ -58,6 +50,7 @@ text-shadow: 1px 1px black;
 color: darkred;
 opacity: .8;
 }
+
 
 #footer img{
 border-radius: 50%;
