@@ -14,7 +14,7 @@
 #innhold {
     margin-right: 7%;
     margin-left: 7%;
-    background-color: rgba(0, 0, 0, .0);
+    
     width: 86%;
     height: 1000px;
     border-radius: 10px;
@@ -43,10 +43,10 @@ ul li{
 }
 ul li a {
     text-decoration-line: none;
-    color: black;
+    color: darkred;
 }
 ul li a:hover{
 text-shadow: 1px 1px black;
-color: darkred;
+color: white;
 opacity: .8;
 }
