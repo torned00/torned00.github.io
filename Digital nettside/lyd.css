@@ -1,0 +1,11 @@
+#main{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    color: black;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
