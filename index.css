@@ -43,10 +43,10 @@ ul li{
 }
 ul li a {
     text-decoration-line: none;
-    color: darkred;
+    color: white;
 }
 ul li a:hover{
 text-shadow: 1px 1px black;
-color: white;
+color: darkred;
 opacity: .8;
 }
