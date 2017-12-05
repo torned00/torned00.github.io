@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ja eller nei</title>
+    <link rel="stylesheet" href="jaellernei.css">
+
+    <script src="https://get.mavo.io/mavo.js"></script>
+    <link rel="stylesheet" href="https://get.mavo.io/mavo.css">
+</head>
+<div>
+<header>
+    <h1>Aladin hjelper deg å velgeee</h1>
+</header>
+</div>
+<body>
+
+
+    <main mv-storage="local" class="mv-autoedit" mv-app id="decisions">
+        <article property="decision" mv-multiple>
+            <header class="answer-[answer]">
+                <h1 property="decision">Bestemma deg då!</h1>
+
+                <p>
+                    Svar: <span property="answer">[if(score > 0, JA, if(score < 0, Nei, Kanskje))]</span>! (score:
+                    <span property="score">[sum(pro.weight) - sum(con.weight)]</span>)
+                </p>
+            </header>
+
+            <section>
+                <h2>[count(pro)] For</h2>
+                <ul>
+                    <li property="pro" class="weight-[weight]" mv-multiple mv-accepts="con">
+                        <p property="argument">...</p>
+                        <p>
+                            Kraft:
+                            <meter property="weight" min="1" value="1" max="5"></meter>
+                            [weight]
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>[count(con)] Mot</h2>
+                <ul>
+                    <li property="con" class="weight-[weight]" mv-multiple mv-accepts="pro">
+                        <p property="argument">...</p>
+                        <p>
+                            Kraft:
+                            <meter property="weight" min="1" value="1" max="5"></meter>
+                            [weight]
+                        </p>
+                    </li>
+                </ul>
+            </section>
+        </article>
+
+        <footer>Total: [count(score > 0)] “yes” decision(s) and [count(score
+            < 0)] “no” decision(s)</footer>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+:root {
+    --fyll:10px;
+}
+
+
+
+header {
+    color:green;
+    font-size: 1.2em;
+    padding: var(--fyll);
+    padding-bottom: 20px;
+}
+
+article {
+    font-size: 1.1em;
+    padding: var(--fyll);
+}
+#liste {
+    
+      border: 2px solid red;
+      padding: 1em;
+  }
+  
+  .kunde {
+    background-color: whitesmoke;
+  }
+#dyr {
+  
+    border: 2px solid red;
+    padding: 1em;
+}
+
+.dyr {
+  background-color: whitesmoke;
+}
+.dyr li:nth-child(odd) {
+    background-color: grey;
+}
+.dyr li:nth-child(even) {
+    background-color: darkgray;
+}
