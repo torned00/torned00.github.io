@@ -1,0 +1,17 @@
+#himmel {
+position: absolute;
+width: 100%;
+height: 60%;
+background-color: darkblue;
+}
+
+#bakke{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    top: 60%;
+}
+.juletre{
+    display: grid;
+    grid-template-columns: 100px 150px;
+}

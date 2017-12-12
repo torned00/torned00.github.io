@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#himmel{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    background:linear-gradient(black,darkblue,lightblue);
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-gap: 40px;
+    grid-auto-rows: minmax(40px, auto);
+}
+
+#bakke{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    top: 60%;
+    background: url("1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stjerner{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+background-color: yellow;
+border-radius: 50%;
+animation: stjerneblink 2s  linear infinite;
+}
+@keyframes stjerneblink {
+    0% {width: 0; height: 0;}
+    50% {width: 10%; height: 10%}
+    100% {width:0 ; height: 0; }
+}
+#nisse{
+    position: absolute;
+    left: -200px;
+    top: 50px;
+    width: 50px;
+    height: 50px;
+    
+    animation:  nisse 5s linear infinite;
+}
+
+@keyframes nisse {
+    0% {left: -200px;}
+    100% {left: 120%}
+}
+.snomenn {
+    position: absolute;
+    top: 65%;
+    left: 75%;
+}
+.juletre {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(20px, auto);
+}
+
+.pakke {
+position: absolute;
+left: 0px;
+top: 0px;
+width: 8px;
+height: 30px;
+background-color: green;
+border-left: solid  red 21px;
+border-right: solid red 21px; 
+animation: pakke 3s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes pakke {
+    0% {top: 30%;}
+    100% {top:97%; }
+}
