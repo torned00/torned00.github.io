@@ -67,6 +67,7 @@ animation: stjerneblink 2s  linear infinite;
     grid-auto-rows: minmax(20px, auto);
 }
 
+
 .pakke {
 position: absolute;
 left: 0px;
@@ -82,4 +83,40 @@ animation-fill-mode: forwards;
 @keyframes pakke {
     0% {top: 30%;}
     100% {top:97%; }
+}
+
+@keyframes dale {
+    0% {top: 0%;}
+    100% {top:97%; }
+}
+
+#godjul {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 4em;
+    text-align: center;
+    color: red;
+}
+.snow {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    animation: dale 3s linear infinite;
+    animation-fill-mode: forwards;
+    border-radius: 50%;
+}
+#pickle {
+    position: absolute;
+    top: 30%;
+    left: -100px;
+    animation: skudd 1s 10s  linear infinite;
+}
+
+@keyframes skudd {
+    0% {top: 25%; left: 0; transform:rotate(0deg); }
+    100% { top: 25%; left: 110%; transform:rotate(1080deg); }
 }

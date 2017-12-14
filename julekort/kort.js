@@ -16,11 +16,25 @@ function setup() {
         pakke.className = "pakke";
         pakke.style.left = e.screenX + "px";
         pakke.style.top = (e.screenY - 50) + "px";
-        divHimmel.appendChild(pakke)
+        divHimmel.appendChild(pakke);
+        sound.play();
     }
     juletre.forEach( juletre => {
         juletre.style.left =   Math.floor(Math.random()*0) + "px";
         juletre.style.top =   Math.floor(Math.random()*0) + "px";
     })
     
-}
+    function makeSnow() {
+        for (let i=0; i<250; i++) {
+            let snow = document.createElement(`div`);
+            snow.className = "snow";
+            snow.style.left = Math.random()*100 + "vw";
+            snow.style.animationDelay = Math.random()*5000 + "ms";
+            let radius = Math.random()*5 + 1;
+            snow.style.width = radius + "px";
+            snow.style.height = radius + "px";
+            divHimmel.appendChild(snow);
+        }
+        }
+        makeSnow();
+    }

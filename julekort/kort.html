@@ -7,11 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Julekort</title>
     <link rel="stylesheet" href="kort.css">
+    <script src="howler.min.js"></script>
     <script src="kort.js"></script>
+
 </head>
 
 <body>
-<audio src="pålåven.mp3" loop autoplay></audio>
+    
     <div id="himmel">
 
         <div class="stjerner"></div>
@@ -75,8 +77,16 @@
         <div class="stjerner"></div>
         <div class="stjerner"></div>
     </div>
-    
-    <div id="nisse"><img src="nisse.png" width="250px" height="100px"></div>
+
+    <div id="nisse"><img src="nisse.png" width="250px" height="100px">
+        <audio src="nisselatter.mp3"></audio>
+    </div>
+
+<div id="pickle">
+<img src="pickle.png" width="100px" height="100px">
+</div>
+
+    <div id="godjul">God Jul</div>
 
     <div id="bakke" class="bakke">
         <div class="juletre">
@@ -94,8 +104,11 @@
     </div>
     <div class="snomenn"> <img src="snømenn.gif" width="200px" height="150px"></div>
     <script>
+        var sound = new Howl({
+            src: ['nisselatter.mp3', 'sound.mp3']
+        });
         setup();
-
+       
     </script>
 
 </body>
