@@ -74,7 +74,7 @@ left: 0px;
 top: 0px;
 width: 8px;
 height: 30px;
-background-color: green;
+background-color: green ;
 border-left: solid  red 21px;
 border-right: solid red 21px; 
 animation: pakke 3s ease-in-out;
@@ -119,4 +119,14 @@ animation-fill-mode: forwards;
 @keyframes skudd {
     0% {top: 25%; left: 0; transform:rotate(0deg); }
     100% { top: 25%; left: 110%; transform:rotate(1080deg); }
+}
+
+#cannon {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    background-image: url("snowcannon.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    
 }

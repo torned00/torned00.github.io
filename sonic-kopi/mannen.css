@@ -1,0 +1,39 @@
+#mannen {
+    position: absolute;
+    top: 0;
+    left: 110%;
+    width: 96.5px;
+    height: 96px;
+    background: url("mannen3.png");
+    animation: walk1 500ms steps(8)infinite,
+    walk 13s linear;
+}
+
+@keyframes walk1 {
+    
+    100% {background-position-x: -772px;}
+}
+
+@keyframes walk {
+    0% {left: 100%;}
+    45% {left:10%;}
+    55%{left: 10%;}
+    100%{left: -10%;}
+
+}
+
+#box {
+    position: absolute;
+    top: 5%;
+    left: 7.5%;
+    width: 50px;
+    height: 50px;
+    background:url("box.png");
+    background-size: cover;
+    animation: box 5s linear;
+    animation-delay: 7.5s;
+}
+
+@keyframes box {
+    100% {left:-10%;}
+}

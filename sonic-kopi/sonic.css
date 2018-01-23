@@ -1,0 +1,21 @@
+#bilde {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 256px;
+   height: 256px;
+    background: url("girl.png");
+    animation: walk 400ms infinite steps(6),
+    sprint 3s linear infinite;
+}
+
+@keyframes walk {
+
+    100% {background-position-x: -1536px;}
+}
+
+@keyframes sprint {
+    50% {top: 90%; left: 90%;}
+    100% {top: 0; left: 0;}
+}
+
