@@ -131,3 +131,14 @@ background-color: darkgray;
     height: 300px;
     background-color: black;
 }
+
+#header {
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    width: 20%;
+    height: 5%;
+    font-size: 2em;
+    border: 2px solid black;
+    text-align: center;
+}
