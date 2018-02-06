@@ -1,0 +1,23 @@
+#avatar{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    
+}
+
+.avatarer{
+    
+    background: white ;
+}
+.avatarer:nth-of-type(odd) {
+    background: darkgrey ;     
+}
+.avatarer img {
+   
+}

@@ -1,0 +1,36 @@
+#main{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    display: grid;
+    grid-template-columns:500px 150px 250px ;
+    grid-column-gap: 10px;
+    grid-auto-rows: minmax(100px,auto);
+    grid-auto-columns: minmax(100px, auto);
+    
+}
+
+div div{
+    background-color:grey;
+    border: 2px solid goldenrod; 
+}
+div div :nth-child(odd) {
+    background-color: gray;
+}
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    height: 10%;
+    background-color: darkslategray;
+    color: goldenrod;
+    font-size: 3em;
+    text-align: center; 
+}
+body {
+    background-color: orangered;
+}

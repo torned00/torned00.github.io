@@ -1,0 +1,58 @@
+#header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 15%;
+    background-color: skyblue;
+    text-align: center;
+    font-size: 3em;
+}
+#main {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    
+}
+
+.item {
+    position: relative;
+    border: solid black 1px;
+}
+
+.item button {
+    position: absolute;
+    bottom: 0;
+    left: 45% ;
+    background-color: yellowgreen;
+    border-radius: 50%;
+}
+
+#grønn {
+    position: absolute;
+    bottom: 30%;
+    left: 75%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    font-size: 10px;
+}
+
+#rød {
+    position: absolute;
+    bottom: 30%;
+    left: 85%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: orangered;
+    font-size: 10px;
+}
+
