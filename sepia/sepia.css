@@ -1,0 +1,57 @@
+#bilder {
+    display: flex;
+    
+}
+
+.bilde {
+    background-size: contain;
+    background-position: center;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    filter: grayscale(80%) ;
+    
+    flex: 1;
+    transition: 2s;
+}
+
+.bilde:hover {
+    filter:  grayscale(0%);
+    flex: 8;
+}
+
+div.bilde:nth-child(1) {
+    background-image: url(bilder/a1.jpg);
+}
+div.bilde:nth-child(2) {
+    background-image: url(bilder/a2.png);
+}
+div.bilde:nth-child(3) {
+    background-image: url(bilder/a3.jpg);
+}
+div.bilde:nth-child(4) {
+    background-image: url(bilder/a4.jpg);
+}
+div.bilde:nth-child(5) {
+    background-image: url(bilder/a5.png);
+}
+div.bilde:nth-child(6) {
+    background-image: url(bilder/a6.jpg);
+}
+div.bilde:nth-child(7) {
+    background-image: url(bilder/a7.jpg);
+}
+div.bilde:nth-child(8) {
+    background-image: url(bilder/a8.jpg);
+}
+div.bilde:nth-child(9) {
+    background-image: url(bilder/a9.png);
+}
+div.bilde:nth-child(10) {
+    background-image: url(bilder/a10.png);
+}
+div.bilde:nth-child(11) {
+    background-image: url(bilder/a11.jpg);
+}
+div.bilde:nth-child(12) {
+    background-image: url(bilder/a12.png);
+}
