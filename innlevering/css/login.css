@@ -1,0 +1,10 @@
+#main #login {
+    position: absolute;
+    top: 10%;
+    left: 43%;
+    min-width: 100px;
+    min-height: 100px;
+    border: solid black 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

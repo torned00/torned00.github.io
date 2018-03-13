@@ -1,0 +1,92 @@
+#container{
+position: absolute;
+width: 70%;
+height: 90%;
+top: 5%;
+left: 15%;
+background-color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#container h1{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    border-bottom: solid black 2px;
+}
+#button {
+    position: absolute;
+    top: 90%;
+    left: calc(50% - 75.5px);
+    min-width: 100px;
+    min-height: 50px;
+}
+
+#info {
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    height: 50%;
+    width: 30%;
+    
+    margin: 10px;
+    text-align: center;
+}
+
+.bilde{
+    margin: 10px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 60%;
+    height: 50%;
+    border: solid black 2px;
+    background-image: url("../bilder/b1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bilde2{
+    margin: 10px;
+    background-image: url("../bilder/b5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 60%;
+    height: 50%;
+    border: solid black 2px;
+}
+.bilde3{
+    margin: 10px;
+    background-image: url("../bilder/b2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 60%;
+    height: 50%;
+    border: solid black 2px;
+}
+.bilde4{
+    margin: 10px;
+    background-image: url("../bilder/b3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 60%;
+    height: 50%;
+    border: solid black 2px;
+}
+
+#box{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.38)
+}

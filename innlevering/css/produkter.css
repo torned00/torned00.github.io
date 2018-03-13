@@ -1,0 +1,48 @@
+#produkter {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    
+}
+
+.produkter {
+    flex: 1;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid black 2px;
+    margin: 10px;
+    transition: 2s;
+    filter: grayscale(80%);
+}
+
+.produkter:nth-child(1) {
+    background-image: url("../bilder/b1.jpg");
+}
+.produkter:nth-child(2) {
+    background-image: url("../bilder/b5.jpg");
+}
+.produkter:nth-child(3) {
+    background-image: url("../bilder/b2.jpg");
+}
+.produkter:nth-child(4) {
+    background-image: url("../bilder/b3.jpg");
+}
+
+.produkter:hover {
+    flex: 3;
+    filter: grayscale(0%);
+}
+
+.filter {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+    

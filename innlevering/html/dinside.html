@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/bestilling.css">
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+    <script src="../javascript/bestilling.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="header">
+            <img src="../bilder/logo1.png">
+        </div>
+        <div class="header">
+            <h1>YAMAHA</h1>
+        </div>
+    </div>
+
+    <div id="menu">
+        <div class="menu"><a href="../index.html">Hjem</a></div>
+        <div class="menu"><a href="produkter.html">Produkt</a></div>
+        <div class="menu"><a href="dinside.html">Bestill</a></div>
+        <div class="menu"><a href="kontakt.html">Din side</a></div>
+        <div class="menu"><a href="login.html">Login</a></div>
+    </div>
+
+    <div id="main">
+        <div id="bestilling">
+            <p><b>Velg din Bestilling</b></p>
+            <article>
+                <label>Velg Modell</label>
+                <select name="type" id="type">
+                    <option value="YZF">YZF</option>
+                    <option value="MT">MT</option>
+            </select>
+            </article>
+            <article>
+                <label>Velg Størelse</label>
+                <select name="kubikk" id="kubikk">
+                <option value="125cc">125cc</option>
+                <option value="300cc">300cc</option>
+                <option value="600cc">600cc</option>
+                <option value="1000cc">1000cc</option>
+
+            </select>
+            </article>
+
+            <article>
+                    <label>Velg Farge</label>
+                    <select name="farge" id="farge">
+                    <option value="rød">rød</option>
+                    <option value="blå">blå</option>
+                    <option value="hvit">hvit</option>
+                    <option value="svart">svart</option>
+    
+                </select>
+            </article>
+
+            <article>
+                <label>Brukernavn</label>
+                <input type="text" id="epost">
+            </article>
+
+            <article>
+                <button type="button" id="bestill">Bestill</button>
+            </article>
+        </div>
+
+    </div>
+    <script>
+        setup();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+#bestilling {
+    position: absolute;
+    top: 10%;
+    left: calc(50% - 100px);
+    width: 200px;
+    min-height: 200px;
+    border: solid black 2px;
+    padding-left: 10px;
+}
+
+#bestilling article {
+    padding: 5px;
+}

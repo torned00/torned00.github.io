@@ -1,0 +1,32 @@
+#info {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 33.3%;
+    height: 100%;
+    
+}
+
+#bestilling {
+    position: absolute;
+    top: 0;
+    left: 33.3%;
+    height: 100%;
+    width: 33.3%;
+    
+}
+
+#chat {
+    position: absolute;
+    top: 0;
+    left: 66.6%;
+    height: 100%;
+    width: 33.3%;
+     
+}
+
+.innhold {
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    border-bottom: solid black 2px;
+}
