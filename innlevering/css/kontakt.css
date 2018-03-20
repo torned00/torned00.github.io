@@ -1,32 +1,47 @@
-#info {
+.sikkerhet {
+    width: 300px;
+    min-height: 300px;
+    margin-left: 30px;
+}
+
+#main{
+    display: flex;
+    font-family: arial;
+}
+#vektor{
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 33.3%;
-    height: 100%;
+    bottom: 10%;
+    left: 10%;
+}
+#frame {
     
-}
-
-#bestilling {
     position: absolute;
-    top: 0;
-    left: 33.3%;
-    height: 100%;
-    width: 33.3%;
-    
+    bottom: 0%;
+    left: 0%;
+    width: calc(950px * 3);
+    height: 640px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    animation: slideshow 10s steps(3) infinite;
+   
 }
 
-#chat {
+
+
+
+@keyframes slideshow {
+    100% {left:-3000px;}
+}
+
+#box {
     position: absolute;
-    top: 0;
-    left: 66.6%;
-    height: 100%;
-    width: 33.3%;
-     
-}
-
-.innhold {
-    border-left: solid black 2px;
-    border-right: solid black 2px;
-    border-bottom: solid black 2px;
+    top: 500px;
+    left: 30%;
+    border: solid black 2px;
+    background-color: white;
+    width: 950px;
+    height: 640px;
+    position: relative;
+    overflow: hidden;
 }

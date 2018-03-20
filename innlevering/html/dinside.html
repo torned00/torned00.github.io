@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/bestilling.css">
     <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
     <script src="../javascript/bestilling.js"></script>
+    <link rel="icon" href="../bilder/favicon.ico">
     <title>Document</title>
 </head>
 
@@ -26,7 +27,7 @@
         <div class="menu"><a href="../index.html">Hjem</a></div>
         <div class="menu"><a href="produkter.html">Produkt</a></div>
         <div class="menu"><a href="dinside.html">Bestill</a></div>
-        <div class="menu"><a href="kontakt.html">Din side</a></div>
+        <div class="menu"><a href="kontakt.html">Om oss</a></div>
         <div class="menu"><a href="login.html">Login</a></div>
     </div>
 
@@ -73,6 +74,17 @@
         </div>
 
     </div>
+
+    <script>
+        var btn=document.getElementById("bestill");
+      
+        btn.addEventListener("click",lagreData);
+        function lagreData() {
+           
+            alert("Din bestilling er mottatt");
+        }
+        </script>
+
     <script>
         setup();
     </script>

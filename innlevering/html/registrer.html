@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/login.css">
     <script src="../javascript/registrer.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+    <link rel="icon" href="../bilder/favicon.ico">
     <title>Document</title>
 </head>
 
@@ -26,7 +27,7 @@
         <div class="menu"><a href="../index.html">Hjem</a></div>
         <div class="menu"><a href="produkter.html">Produkt</a></div>
         <div class="menu"><a href="dinside.html">Bestill</a></div>
-        <div class="menu"><a href="kontakt.html">Din side</a></div>
+        <div class="menu"><a href="kontakt.html">Om oss</a></div>
         <div class="menu"><a href="login.html">Login</a></div>
     </div>
 
@@ -52,6 +53,15 @@
             </p>
         </div>
     </div>
+    <script>
+        var btn=document.getElementById("registrer");
+      
+        btn.addEventListener("click",lagreData);
+        function lagreData() {
+           
+            alert("Du er nå registrert ");
+        }
+        </script>
 
     <script>
         setup();
