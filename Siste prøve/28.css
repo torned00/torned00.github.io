@@ -1,0 +1,19 @@
+#moyn {
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    }
+    
+    #moyn div {
+    width:30px;
+    height:30px;
+    margin:5px;
+    background-color:green;
+    }
+
+#moyn div:first-child{
+    background-color: blue;
+}
+
+div > div:nth-child(3){
+    background-color: blue;
+}

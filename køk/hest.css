@@ -1,0 +1,19 @@
+#hest{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 452px;
+    height: 259px;
+    overflow: hidden;
+    
+}
+
+.b{
+    width: 452px;
+    height: 259px;
+    animation: 50ms hest infinite steps(3);
+}
+@keyframes hest {
+    100% {position: absolute; top: -518px;}
+}
+

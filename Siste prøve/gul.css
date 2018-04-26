@@ -1,0 +1,13 @@
+#main {
+    position: absolute;
+    background-color: blue;
+    left: 20px;
+    top: 20px;
+    width:20px;
+    height:20px;
+    animation: mystery 1s 3s alternate 5;
+  }
+
+  @keyframes mystery {
+      100% {left: 300px;}
+  }
