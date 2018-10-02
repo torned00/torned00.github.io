@@ -1,0 +1,156 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+#canvas{
+    position: absolute;
+    background: radial-gradient(#cccccc,#7f7f7f) ;
+    width: 1200px;
+    height: 600px;
+    top: calc(50vh - 300px);
+    left: calc(50vw - 600px);  
+    border: solid black 3px;
+}
+
+.health{
+    background-image: url("../images/health-icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+}
+
+.walls{
+    background-color: black;
+    position: absolute;
+}
+
+#start{
+    position: absolute;
+    top: 0;
+    left: 530px;
+    font-size: 2.4em;
+    padding: 10px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: white;
+    background-color:black;
+    outline: none;
+    border: none;
+}
+
+.player{
+    top: -15px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#player2{
+    position: absolute;
+    left: 10px;
+}
+
+#player1{
+    position: absolute;
+    right: 10px;
+}
+
+.progressbar{
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    border: solid 2px black;
+}
+
+.progress{
+    width: 200px;
+    background-color: red;
+    height: 30px;
+    border-radius: 1px; 
+}
+
+#redBar{
+    left: 990px;
+}
+
+#blueProgress{
+    background-color: blue;
+    position: absolute;
+    left: 0;
+}
+
+#win{
+    position: relative;
+    margin: auto;
+    top: -200px;
+    height: 80px;
+    width: 0px;
+    text-align: center;
+    transform: translateX(-20px);
+}
+
+#win>h1{
+    color: black;
+    display: inline-block;
+    line-height: 60px;
+    font-size: 5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*CodePen input*/
+
+#countdown {
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    
+}
+  
+#countdown-number {
+    color: black;
+    display: inline-block;
+    line-height: 40px;
+    font-size: 5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #333;
+}
+
+
+div.player{
+    position: absolute;
+    background-size: cover;
+    background-repeat: repeat;
+    z-index: 1;
+}
+
+div.bullet{
+    position: absolute;
+    z-index: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+div.tracks{
+    position: absolute;
+    background-color: black;
+    height: 10px;
+    width: 10px;
+}
+  
+
+
+  
